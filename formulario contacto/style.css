@@ -158,15 +158,71 @@ input::placeholder, textarea::placeholder{
 }
 
 @media (max-width: 991px) {
-    body{
-        padding: 30px;
-    }
-    form{
-        padding: 50px 30px;
-        width: 100%;
-    }
-    input{
+    body {
         padding: 15px;
+    }
+    
+    form {
+        padding: 30px 20px;
+        width: 100%;
+        margin: 10px;
+    }
+    
+    input, textarea {
+        padding: 12px 12px 12px 35px;
+        font-size: 14px;
+    }
+    
+    .form-txt {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    .animal-icon {
+        font-size: 36px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    form {
+        padding: 20px 15px;
+    }
+    
+    .back-home {
+        top: 10px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .home-icon {
+        font-size: 20px;
+    }
+    
+    .input-container {
+        margin-bottom: 15px;
+    }
+    
+    input, textarea {
+        margin-bottom: 10px;
+    }
+    
+    .tooltip {
+        display: none;
     }
 }
 
